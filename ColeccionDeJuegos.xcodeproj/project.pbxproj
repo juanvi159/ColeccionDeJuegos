@@ -14,6 +14,7 @@
 		1E1619FB26543CA500DA9E1E /* ColeccionDeJuegos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E1619F926543CA500DA9E1E /* ColeccionDeJuegos.xcdatamodeld */; };
 		1E1619FD26543CAF00DA9E1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E1619FC26543CAF00DA9E1E /* Assets.xcassets */; };
 		1E161A0026543CAF00DA9E1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E1619FE26543CAF00DA9E1E /* LaunchScreen.storyboard */; };
+		1E161A08265447C800DA9E1E /* JuegosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E161A07265447C800DA9E1E /* JuegosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1E1619FC26543CAF00DA9E1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E1619FF26543CAF00DA9E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E161A0126543CAF00DA9E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E161A07265447C800DA9E1E /* JuegosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		1E1619EF26543CA500DA9E1E /* ColeccionDeJuegos */ = {
 			isa = PBXGroup;
 			children = (
+				1E161A07265447C800DA9E1E /* JuegosViewController.swift */,
 				1E1619F026543CA500DA9E1E /* AppDelegate.swift */,
 				1E1619F226543CA500DA9E1E /* SceneDelegate.swift */,
 				1E1619F426543CA500DA9E1E /* ViewController.swift */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E161A08265447C800DA9E1E /* JuegosViewController.swift in Sources */,
 				1E1619F526543CA500DA9E1E /* ViewController.swift in Sources */,
 				1E1619F126543CA500DA9E1E /* AppDelegate.swift in Sources */,
 				1E1619F326543CA500DA9E1E /* SceneDelegate.swift in Sources */,
